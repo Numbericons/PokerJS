@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PokerJS</title>
+</head>
+<body>
+
+<canvas id="canvas" width="1200" height="600" id="canvas"></canvas>
+
+<div>
+  Current Bet: <span id="currentBet">0</span>
+</div>
+<div>
+  <button id="check">Check</button>
+  <button id="call">Call</button>
+  <button id="raise">Raise</button> <input id="raiseAmount" type="number" style="width: 45px"/> Chips
+  <button id="fold">Fold</button>
+</div>
+<div>Message Log</div>
+<textarea id="messageLog" readonly rows="7" cols="200"></textarea>
+<button id="continueNextRound">Continue to the next round</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+<script src="poker.js"></script>
+
+</body>
+</html>

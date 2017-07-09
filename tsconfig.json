@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outFile": "poker.js",
+        "sourceMap": true,
+        "lib": ["es5", "dom", "es2015.core"]
+    },
+    "include": [
+        "ts/**/*",
+        "node_modules/@types/jquery/index.d.ts",
+        "node_modules/@types/lodash/index.d.ts"
+    ]
+}

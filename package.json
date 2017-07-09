@@ -1,0 +1,24 @@
+{
+  "name": "PokerJS",
+  "version": "1.0.0",
+  "description": "Dependencies and scripts for the PokerJS application.",
+  "repository": {
+    "type": "git",
+    "url": "http://test.poker.js"
+  },
+  "scripts": {
+    "start": "tsc poker.ts"
+  },
+  "babel": {
+    "plugins": ["transform-runtime"],
+    "presets": ["es2015", "stage-0"]
+  },
+  "devDependencies": {
+    "typescript":"^2.4.1",
+    "@types/jquery":"^3.2.6",
+    "@types/lodash":"^4.14.68"
+  },
+  "dependencies": {
+  },
+  "license": "MIT"
+}
