@@ -948,7 +948,7 @@ function init() {
         var promptString = prompt("How many players? (Enter a number from 2-8)");
         num = Number(promptString);
         if (isNaN(num) || num < 1 || num > 8) {
-            alert("Invalid or blank number of players specified. Defaulting to 8 players.");
+            alert("Defaulting to 8 players. Press OK to start game.");
             num = 8;
         }
     }
