@@ -4,7 +4,7 @@ This is a JavaScript program that plays the Texas Hold'em variant of poker. You 
 It makes heavy use of TypeScript and object-oriented programming.
 
 # Setup
-* Install typescript via npm, then run `tsc` in this directory to compile the javascript into poker.js. Then open index.html.
+* Install typescript via npm, then run `tsc` in this directory to compile the typescript files in ts directory into poker.js. Then open index.html.
 
 # Technologies used
 * Typescript
