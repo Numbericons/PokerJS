@@ -31,11 +31,12 @@ $(window).on("load", init);
 let game: Game;
 
 function init() {
-  let num;
+  let num: number;
   if(debug) {
     num = debugNum;
   } else {
-    num = Number(prompt("How many players? (Enter a number from 2-8)"));
+    let promptString = prompt("How many players? (Enter a number from 2-8)");
+    num = Number(promptString);
     if(isNaN(num) || num < 1 || num > 8) {
       alert("Invalid number!");
       return;
