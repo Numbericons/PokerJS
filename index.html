@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PokerJS</title>
+<title>PokerJS</title>
+<style>
+  table {
+    border: 1px solid gray;
+  }
+  td {
+    padding: 5px 10px 5px 10px;
+    background-color: lightgray;
+  }
+</style>  
 </head>
 <body>
 
 <canvas id="canvas" width="1200" height="600" id="canvas"></canvas>
 
-<div>
-  Current Bet: <span id="currentBet">0</span>
-</div>
-<div>
-  <button id="check">Check</button>
-  <button id="call">Call</button>
-  <button id="raise">Raise</button> <input id="raiseAmount" type="number" style="width: 45px"/> Chips
-  <button id="fold">Fold</button>
-</div>
+<table border="1">
+  <tr>
+    <td><button id="check">Check</button></td>
+    <td><button id="call">Call</button></td>
+    <td><button id="raise">Bet</button> <input id="raiseAmount" type="number" min="2" style="width: 60px"/> chips</td>
+    <td><button id="allin">All In!</button></td>
+    <td><button id="fold">Fold</button></td>
+  </tr>
+</table>
 <div>Message Log</div>
-<textarea id="messageLog" readonly rows="7" cols="200"></textarea>
+<textarea id="messageLog" readonly rows="7" style="width:1200px"></textarea>
+<br/>
 <button id="continueNextRound">Continue to the next round</button>
+<button id="continue">Continue</button>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>

@@ -6,7 +6,8 @@
         "preserveConstEnums": true,
         "outFile": "poker.js",
         "sourceMap": true,
-        "lib": ["es5", "dom", "es2015.core"]
+        "lib": ["es5", "dom", "es2015.core"],
+        "target": "es5"
     },
     "include": [
         "ts/**/*",
