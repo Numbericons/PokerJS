@@ -4,24 +4,24 @@ This is a JavaScript program that plays the Texas Hold'em variant of poker. You 
 It makes heavy use of TypeScript and object-oriented programming.
 
 # Setup
--Install typescript via npm, then run `tsc` in this directory to compile the javascript into poker.js. Then open index.html.
+* Install typescript via npm, then run `tsc` in this directory to compile the javascript into poker.js. Then open index.html.
 
 # Technologies used
--Typescript
--JQuery
--Lodash
--ES6
+* Typescript
+* JQuery
+* Lodash
+* ES6
 
 # Todo
--Better, more interesting AI
--Pot split logic
--Slider for AI speed
--Chip graphics and animation
--Use unit test framework
--Get a ts linter
+* Better, more interesting AI
+* Pot split logic
+* Slider for AI speed
+* Chip graphics and animation
+* Use unit test framework
+* Get a ts linter
 
 # Known Bugs
--If a player's small/big blind results in zero chips against a single other opponent with positive chips, the showdown should be immediate.
+* If a player's small/big blind results in zero chips against a single other opponent with positive chips, the showdown should be immediate.
 
 # License
 MIT
