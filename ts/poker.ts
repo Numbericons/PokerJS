@@ -38,8 +38,8 @@ function init() {
     let promptString = prompt("How many players? (Enter a number from 2-8)");
     num = Number(promptString);
     if(isNaN(num) || num < 1 || num > 8) {
-      alert("Invalid number!");
-      return;
+      alert("Invalid or blank number of players specified. Defaulting to 8 players.");
+      num = 8;
     }
   }
   game = new Game(num);
