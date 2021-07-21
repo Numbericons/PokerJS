@@ -31,17 +31,17 @@ class Hand {
       this.value = 600;
     } else if(this.isThrees()) {
       this.name = "three of a kind";
-      this.value = 600;
+      this.value = 500;
     } else if(this.isTwoPair()) {
       this.name = "two pair";
-      this.value = 500;
+      this.value = 400;
     } else if(this.isPair()) {
       this.name = "pair";
-      this.value = 400;
+      this.value = 300;
     } else {
       this.kickers = this.cards.slice(0);
       this.name = "high card";
-      this.value = 300;
+      this.value = 200;
     }
   }
 
